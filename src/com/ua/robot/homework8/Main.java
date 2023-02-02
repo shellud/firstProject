@@ -16,7 +16,6 @@ public class Main {
         fillRandomArray(arr, maxRandomValue);
         printArray(arr);
         printResults(arr, maxRandomValue);
-
     }
 
     //Filling of array
