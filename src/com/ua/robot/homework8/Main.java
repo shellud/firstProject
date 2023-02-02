@@ -57,8 +57,8 @@ public class Main {
     }
 
     //Average value of array
-    static double getAverageValue(int[] arr) {
-        double average = 0;
+    static float getAverageValue(int[] arr) {
+        float average = 0.0F;
         for (int i : arr) {
             average += i;
         }
