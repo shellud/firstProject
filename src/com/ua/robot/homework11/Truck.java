@@ -1,7 +1,7 @@
 package com.ua.robot.homework11;
 
 public class Truck extends Vehicle{
-    int loadCapacity;
+    private int loadCapacity;
 
     public Truck(String type, String manufacturer, String color, int productionYear, int loadCapacity) {
         super(type, manufacturer, color, productionYear);

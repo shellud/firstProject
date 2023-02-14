@@ -1,10 +1,10 @@
 package com.ua.robot.homework11;
 
 public class Vehicle {
-    String type;
-    String manufacturer;
-    String color;
-    int productionYear;
+    protected String type;
+    protected String manufacturer;
+    protected String color;
+    protected int productionYear;
 
     public Vehicle(String type, String manufacturer, String color, int productionYear) {
         this.type = type;

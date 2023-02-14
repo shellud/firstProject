@@ -1,8 +1,8 @@
 package com.ua.robot.homework11;
 
 public class Car extends Vehicle{
-    String model;
-    int horsepower;
+    private String model;
+    private int horsepower;
 
     public Car(String type, String manufacturer, String color, int productionYear, String model, int horsepower) {
         super(type, manufacturer, color, productionYear);
