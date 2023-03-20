@@ -17,7 +17,7 @@ public class Main {
 
     public static void randomSet(Set set) {
         Random random = new Random();
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 1000; i++) {
             set.add(random.nextInt(1, 51));
         }
         System.out.println(set);
