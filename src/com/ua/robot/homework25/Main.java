@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner newScan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Введіть число: ");
-        String line = newScan.nextLine();
+        String line = scanner.nextLine();
         int digit;
         while (true) {
             try {
@@ -15,7 +15,7 @@ public class Main {
             } catch (NumberFormatException e) {
                 System.out.println("Помилка - ви ввели символ, введіть число: ");
             }
-            line = newScan.nextLine();
+            line = scanner.nextLine();
         }
         System.out.println("Ви ввели число: " + digit);
     }
